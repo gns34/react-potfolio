@@ -5,6 +5,7 @@ export default function SecondPage() {
             <h2 className="text-cyan-100 font-['Times New Roman'] font-extrabold">Skills and Technologies</h2>
                 <br></br>
                 <div>
+
                     <ul>
                         <li>Tailwind</li>
                         <li>React</li>
