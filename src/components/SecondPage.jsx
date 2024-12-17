@@ -7,10 +7,6 @@ export default function SecondPage() {
                         Skills & Technologies
                     </h2>
                     
-                    <div className="flex justify-center md:float-right">
-                        <img src="./vite.svg" alt="coding" 
-                             className="w-40 h-40 md:w-60 md:h-60 mt-10 md:mt-20 md:mr-32"/>
-                    </div>
 
                     <div className="text-white p-4 font-extrabold">
                         <br/><br/>
@@ -61,6 +57,25 @@ export default function SecondPage() {
                         {/* Database Skills */}
                         <div className="bg-gray-800 p-6 rounded-xl hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105">
                             <h3 className="text-cyan-400 text-xl font-bold mb-4">Database</h3>
+                            <ul className="space-y-2 text-gray-300">
+                                <li className="flex items-center">
+                                    <span className="mr-2">▹</span> PostgreSQL
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2">▹</span> MongoDB
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2">▹</span> Redis
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2">▹</span> SQL
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Tools & Technologies */}
+                        <div className="bg-gray-800 p-6 rounded-xl hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105">
+                            <h3 className="text-cyan-400 text-xl font-bold mb-4">Tools & Technologies</h3>
                             <ul className="space-y-2 text-gray-300">
                                 <li className="flex items-center">
                                     <span className="mr-2">▹</span> PostgreSQL
